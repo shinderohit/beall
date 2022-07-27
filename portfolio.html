@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BEALL</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <nav class="navbar sticky-1">
+        <div class="content">
+            <div class="logo">
+                <a href="index.html"><img src="assets\img\Group 171.svg" alt=""></a>
+            </div>
+            <ul class="menu-list menu-list-1">
+                <div class="mob-d-flex">
+                    <div class="logo-1">
+                        <a href="index.html"><img src="assets\img\Group 171.svg" alt=""></a>
+                    </div>
+                    <div class="icon cancel-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <li class="dropdown">
+                    <a href="#" class="fourthy-p4 teritary-color">About Us<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <ul class="dropdown-content"> 
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="philanthropy.html">Philanthropy</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="fourthy-p4 teritary-color">Expertise<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="finance.html">Owner Finance</a></li>
+                        <li><a href="estate.html">Real Estate</a></li>
+                        <li><a href="equity.html">Oil and Gases</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="fourthy-p4 teritary-color">Development<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <ul class="dropdown-content">
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="fourthy-p4 teritary-color">Contact</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="banner-1 w-100 pos-rel">
+            <div class="team-banner pos-abs">
+                <img class="w-100" src="assets/img/Optimized Photos/Rectangle-12.jpg" alt="">
+            </div>
+            <a href="#section02"><img class="arrow-down pos-abs" src="assets/img/Icon feather-arrow-down.png" alt=""></a>
+            <div class="static-img">
+                <img class="pos-abs" src="assets/img/Group 7.png" alt="">
+            </div>
+            <div class="content">
+                <div class="hero-text-1 pos-abs w-60">
+                    <p class="fourthy-p1 teritary-color">PORTFOLIO</p>
+                    <h1 class="secondary-h2 warning-color">Investing in developments that add value and provide services to the community.</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="blank w-100"></div>
+
+    <section class="portfolio content pt-150">
+        <div id="myBtnContainer">
+            <button class="btn fourthy-p3 warning-color active" onclick="filterSelection('all')">All </button>
+            <button class="btn fourthy-p3 warning-color" onclick="filterSelection('family')">MULTIFAMILY </button>
+            <button class="btn fourthy-p3 warning-color" onclick="filterSelection('commerce')"> COMMERCIAL </button>
+            <button class="btn fourthy-p3 warning-color" onclick="filterSelection('people')"> LAND </button>
+        </div>
+        <div class="content-2 pb-100">
+            <div class="row">
+                <div class="column family w-50">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/cytonn-photography-TVyhDpvL8MY-unsplash.jpg" alt="Mountains">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Creekside at Hudson Oaks</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">900 CINEMA DR HUDSON OAKS, TX</h4>
+                            <p class="fourthy-p2 fourth-color">Completed in 2021, Beall Investments is the majority investor in a 338-unit apartment community in Hudson Oaks, Texas, which consists of 10,000-square-feet of commercial space.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column family w-50">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/new-housing-development-2821969_1920.jpg" alt="Lights">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Ladera Hill Country</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">7500 S I-35 FRONTAGE RD AUSTIN, TX</h4>
+                            <p class="fourthy-p2 fourth-color">Beall Investments was a limited partner in the 
+                                development of this 308-unit apartment community 
+                                in Austin, Texas. The partnership sold the community 
+                                in 2014.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column family w-50">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/bigstock-The-Coloful-Condo-75237.jpg" alt="Nature">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Beall 157 Retail</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">2880 FM 157 MANSFIELD, TX</h4>
+                            <p class="fourthy-p2 fourth-color">XXXX square feet of commercial space located on FM 157 just north of the FM 157 and Highway 287 intersection in Mansfield, Texas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column family w-50">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/cytonn-photography-TVyhDpvL8MY-unsplash.jpg" alt="Mountains">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Beall Building</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">2000 S STEMMONS FWY LAKE DALLAS, TX</h4>
+                            <p class="fourthy-p2 fourth-color">9,000 square feet of office space located on S Stemmons Fwy southeast of the I-35 and Highway 2181 intersection in Lake Dallas, Texas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column w-50 commerce">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/remi-walle-UOwvwZ9Dy6w-unsplash.jpg" alt="Car">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">1210 Hall Johnson</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">1210 HALL JOHNSON RD COLLEYVILLE, TX</h4>
+                            <p class="fourthy-p2 fourth-color">8,000 square feet of commercial space located at the intersection of Hall Johnson Road and Highway 26 in Colleyville, Texas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column w-50 commerce">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/bigstock-Construction-Of-A-New-Multi-st-382736705.jpg" alt="Car">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Spirit of Texas Building</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">5712 COLLEYVILLE BLVD COLLEYVILLE, TX</h4>
+                            <p class="fourthy-p2 fourth-color">Beall Investments was a limited partner in the 
+                                development of this 308-unit apartment community 
+                                in Austin, Texas. The partnership sold the community 
+                                in 2014.
+                                Anchored by Spirit of Texas Bank, this 18,600 square foot building contains commercial space located at the intersection of Hall Johnson Road and Highway 26 in Colleyville, Texas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column w-50 commerce">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/bigstock-Close-Up-Business-Adviser-Meet-426119642.jpg" alt="Car">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Beall Katy Retail</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">2201 S MASON RD KATY, TX</h4>
+                            <p class="fourthy-p2 fourth-color">7,600 square feet of retail space located on Mason Road southeast of the I-10 and Grand Parkway intersection in Katy, Texas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column w-50 commerce">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/remi-walle-UOwvwZ9Dy6w-unsplash.jpg" alt="Car">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Future Retail Site</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">FLOWER MOUND, TX</h4>
+                            <p class="fourthy-p2 fourth-color">1.5 acres approved for 11,600 square feet of retail located at the corner of FM 3040 (Flower Mound Road) and Old Orchard Lane.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column w-50 people">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/bigstock-Texas-Bluebonnet-Wildflower-Fi-413067640.jpg" alt="Car">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">The Marketplace at Pointe South</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">2880 FM 157 MANSFIELD, TX</h4>
+                            <p class="fourthy-p2 fourth-color">23,100 square feet of retail, office and warehouse space located on East 111th Street just south of the Highway 64 and Creek Turnpike intersection in Bixby, Oklahoma.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column w-50 people">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/bigstock-Brick-And-Stucco-Apartments-3002033.jpg" alt="Car">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Ladera Hill Country</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">7500 S I-35 FRONTAGE RD AUSTIN, TX</h4>
+                            <p class="fourthy-p2 fourth-color">Beall Investments was a limited partner in the 
+                                development of this 308-unit apartment community 
+                                in Austin, Texas. The partnership sold the community 
+                                in 2014.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column w-50 people">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/Rectangle-12.jpg" alt="Car">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Ladera Hill Country</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">7500 S I-35 FRONTAGE RD AUSTIN, TX</h4>
+                            <p class="fourthy-p2 fourth-color">Beall Investments was a limited partner in the 
+                                development of this 308-unit apartment community 
+                                in Austin, Texas. The partnership sold the community 
+                                in 2014.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column w-50 people">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/bigstock-Texas-Bluebonnet-Wildflower-Fi-413067640.jpg" alt="Car">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Ladera Hill Country</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">7500 S I-35 FRONTAGE RD AUSTIN, TX</h4>
+                            <p class="fourthy-p2 fourth-color">Beall Investments was a limited partner in the 
+                                development of this 308-unit apartment community 
+                                in Austin, Texas. The partnership sold the community 
+                                in 2014.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column w-50 people">
+                    <div class="content-1">
+                        <img class="w-100" src="assets/img/Optimized Photos/bigstock-Texas-Bluebonnet-Wildflower-Fi-413067640.jpg" alt="Car">
+                        <div class="porf-text mt-50 pb-50">
+                            <div class="text-head">
+                                <h3 class="teritary-h3 warning-color">Ladera Hill Country</h3><i class="fas fa-arrow-right"></i>
+                            </div>
+                            <h4 class="fourthy-p5 grey-color w-50">7500 S I-35 FRONTAGE RD AUSTIN, TX</h4>
+                            <p class="fourthy-p2 fourth-color">Beall Investments was a limited partner in the 
+                                development of this 308-unit apartment community 
+                                in Austin, Texas. The partnership sold the community 
+                                in 2014.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="pos-rel">
+        <div class="footer-bg pos-abs w-100" style="background-color: #981A13;">
+            <div class="footer-path">
+                <img class="pos-abs" src="assets/img/Group 7@2x.png" alt="">
+            </div>
+            <div class="content d-column pt-150">
+                <div class="footer-logo">
+                    <img src="assets/img/Group 174.svg" alt="">
+                </div>
+                <div class="footer-content pt-150">
+                    <div class="footer-addr">
+                        <p class="fourthy-p2 primary-color">5712 Colleyville Blvd STE 200 Colleyvile, TX 76034</p>
+                        <p class="fourthy-p2 primary-color">info@rsbeall.com</p>
+                        <p class="fourthy-p2 primary-color">(817)399-1100</p>
+                    </div>
+                    <div class="footer-menu">
+                        <div class="footer-menu-list">
+                            <h5 class="fourthy-p3 primary-color">About Us</h5>
+                            <ul>
+                                <li><a href="" class="fourthy-p2 primary-color">Team</a></li>
+                                <li><a href="" class="fourthy-p2 primary-color">History</a></li>
+                                <li><a href="" class="fourthy-p2 primary-color">Philanthropy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu-list">
+                            <h5 class="fourthy-p3 primary-color">Services</h5>
+                            <ul>
+                                <li><a href="" class="fourthy-p2 primary-color">Owner Finance</a></li>
+                                <li><a href="" class="fourthy-p2 primary-color">Real Estate</a></li>
+                                <li><a href="" class="fourthy-p2 primary-color">Oil and Gases</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu-list">
+                            <h5 class="fourthy-p3 primary-color">Development</h5>
+                            <ul>
+                                <li><a href="" class="fourthy-p2 primary-color">Portfolio</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-menu-list">
+                            <h5 class="fourthy-p3 primary-color">Contact</h5>
+                            <!-- <ul>
+                                <li><a href="">Team</a></li>
+                                <li><a href="">History</a></li>
+                                <li><a href="">Philanthropy</a></li>
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+          }
+        }
+        
+        function AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        
+        function RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        
+        
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+    </script>
+        
+</body>
+</html>
